@@ -1,7 +1,8 @@
 require('dotenv').config();
 const Discord = require('discord.js')
 const { REST, Routes } = require('discord.js')
-const responseList = ["Calla Maricón", "Dune es basura", "Is This the altar","Agujero del coño"];
+const responseList = ["Calla Maricón", "Dune es basura", "Is This the altar","Agujero del coño"
+    ,"Calla coño","BERT!","AH, MIS OIDOS","El refugio","Busca agua","Maricones y lesbianas"];
 const token = process.env.CLIENT_TOKEN
 const CLIENT_ID = process.env.CLIENT_ID
 const client = new Discord.Client({
